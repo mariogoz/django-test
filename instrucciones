@@ -17,5 +17,7 @@ virtualenv==16.1.0
 5.- activar workspace (para salir deactivate)
     source activate
 
+6.- Crear proyecto 
+    django-admin.py startproject ProjectoU
 
 
