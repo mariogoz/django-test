@@ -20,4 +20,25 @@ virtualenv==16.1.0
 6.- Crear proyecto 
     django-admin.py startproject ProjectoU
 
+7.- Configurar setting.py (migraciones)
+    - DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'trabajouchile',
+            'USER': 'postgres',
+            'PASSWORD': 'Elsud16',
+            'HOST': 'LOCALHOST',
+            'PORT': 5432,
+        }
+    }      
+
+ 8.- migrar python3.7 manage.py migrate    
+ 9.- Crear super usuario para entrar a la adm de django
+    - python3.7 manage.py createsuperuser
+10.- Run server
+    - python3.7 manage.py runserver
+
+Municipalidad de Las Condes
+Servicio de Registro Civil e Identificacion
+
 
